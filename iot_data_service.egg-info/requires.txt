@@ -1,0 +1,14 @@
+fastapi<1.0.0,>=0.115.0
+uvicorn[standard]<1.0.0,>=0.30.0
+motor<4.0.0,>=3.5.0
+pymongo<5.0.0,>=4.8.0
+python-jose[cryptography]<4.0.0,>=3.3.0
+passlib[bcrypt]<2.0.0,>=1.7.4
+bcrypt==4.0.1
+pydantic-settings<3.0.0,>=2.4.0
+python-multipart<1.0.0,>=0.0.9
+
+[dev]
+pytest<9.0.0,>=8.3.0
+pytest-asyncio<1.0.0,>=0.24.0
+httpx<1.0.0,>=0.27.0
